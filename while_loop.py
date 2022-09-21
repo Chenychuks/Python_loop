@@ -5,9 +5,8 @@ Date   : 2022-09-16
 Purpose: Python Control flow Statements and Loops
 """
 
-name = input('Enter your name: ').upper().lower()
+name = True
 while name:
-    if name == ('end').upper().lower():
-        break
-    else:
-        print('my name is: ' + name)
+    my_name = input('Enter your name: ').upper().lower()
+    if my_name == ('end').upper().lower():
+        name = False
