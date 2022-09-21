@@ -11,6 +11,7 @@ found_vowel = []
 
 for item in name:
     if item in vowel:
-        #print(item, end='')
-        print(found_vowel.append(item))
-print(found_vowel)
+        found_vowel.append(item)
+
+x = set(found_vowel)
+print(''.join(x))
